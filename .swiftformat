@@ -1,0 +1,49 @@
+--swiftversion 5.0
+
+# MARK: - File Options
+--exclude build,**/.build,**/DerivedData,**/SourcePackages,**/Generated,AnalyticsGen
+
+# MARK: - Format Options
+--indent 2
+--linebreaks lf
+--modifierorder acl,override,final,required,convenience,dynamic,mutating,nonmutating,lazy
+
+# MARK: - Code Simplification
+--enable redundantReturn
+--enable redundantSelf
+--self init-only
+--enable redundantNilInit
+--enable redundantClosure
+--enable redundantParens
+--enable unusedArguments
+--disable spaceAroundOperators
+--disable preferForLoop
+
+# MARK: - SwiftUI readability
+--enable wrapSwitchCases
+--enable wrapArguments
+--wraparguments before-first
+--wrapparameters before-first
+--disable wrapMultilineStatementBraces
+
+# MARK: - Imports
+--enable sortImports
+
+# MARK: - Whitespace
+--enable trailingSpace
+--enable consecutiveSpaces
+--enable blankLinesAtEndOfScope
+--enable blankLinesAtStartOfScope
+
+# MARK: - Initialization
+--disable initCoderUnavailable
+
+# MARK: - Comments
+--enable spaceAroundComments
+--enable spaceInsideComments
+--enable todos
+--disable docComments
+
+# MARK: - Style
+--disable numberFormatting
+--disable blankLinesAroundMark
