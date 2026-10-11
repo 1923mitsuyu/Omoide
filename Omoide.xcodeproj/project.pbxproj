@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21960D42307BD11000443FC8 /* Omoide.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 21960D3C307BD11000443FC8 /* Omoide.debug.xcconfig */; };
+		21960D43307BD11000443FC8 /* Omoide.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 21960D3D307BD11000443FC8 /* Omoide.release.xcconfig */; };
+		21960D44307BD11000443FC8 /* Omoide.base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 21960D3B307BD11000443FC8 /* Omoide.base.xcconfig */; };
+		21960D45307BD11000443FC8 /* Project.base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 21960D3F307BD11000443FC8 /* Project.base.xcconfig */; };
 		21FED716307B2CF0001D6651 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 21FED715307B2CF0001D6651 /* AppFeature */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		217A0DDB307B299D0029AE35 /* AppCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppCore; sourceTree = "<group>"; };
 		2185B734307A29F900040C7A /* Omoide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omoide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21960D3B307BD11000443FC8 /* Omoide.base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Omoide.base.xcconfig; sourceTree = "<group>"; };
+		21960D3C307BD11000443FC8 /* Omoide.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Omoide.debug.xcconfig; sourceTree = "<group>"; };
+		21960D3D307BD11000443FC8 /* Omoide.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Omoide.release.xcconfig; sourceTree = "<group>"; };
+		21960D3F307BD11000443FC8 /* Project.base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.base.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -39,6 +47,7 @@
 				217A0DDB307B299D0029AE35 /* AppCore */,
 				2185B736307A29F900040C7A /* Omoide */,
 				21FED714307B2CF0001D6651 /* Frameworks */,
+				21960D41307BD11000443FC8 /* Configurations */,
 				2185B735307A29F900040C7A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +58,33 @@
 				2185B734307A29F900040C7A /* Omoide.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		21960D3E307BD11000443FC8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				21960D3B307BD11000443FC8 /* Omoide.base.xcconfig */,
+				21960D3C307BD11000443FC8 /* Omoide.debug.xcconfig */,
+				21960D3D307BD11000443FC8 /* Omoide.release.xcconfig */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		21960D40307BD11000443FC8 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				21960D3F307BD11000443FC8 /* Project.base.xcconfig */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		21960D41307BD11000443FC8 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				21960D3E307BD11000443FC8 /* Application */,
+				21960D40307BD11000443FC8 /* Project */,
+			);
+			path = Configurations;
 			sourceTree = "<group>";
 		};
 		21FED714307B2CF0001D6651 /* Frameworks */ = {
@@ -121,6 +157,10 @@
 		2185B732307A29F900040C7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				21960D42307BD11000443FC8 /* Omoide.debug.xcconfig in Resources */,
+				21960D43307BD11000443FC8 /* Omoide.release.xcconfig in Resources */,
+				21960D44307BD11000443FC8 /* Omoide.base.xcconfig in Resources */,
+				21960D45307BD11000443FC8 /* Project.base.xcconfig in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
