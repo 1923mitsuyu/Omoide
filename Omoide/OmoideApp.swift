@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import AppFeature
 
 @main
 struct OmoideApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView()
         }
     }
 }
