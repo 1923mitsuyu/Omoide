@@ -1,0 +1,6 @@
+# Swift製コマンドラインツールのインストールと実行を管理するツール
+# BundlerのSwift版
+# 記述形式: {ユーザー名}/{リポジトリ名}@{バージョン}
+# mint bootstrap: Mintfileに記載されたツールをインストール
+# mint run SwiftFormat .: SwiftFormatを実行
+nicklockwood/SwiftFormat@0.63.1
