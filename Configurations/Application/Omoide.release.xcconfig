@@ -1,4 +1,4 @@
-#include "Configurations/Application/Omoide.base.xcconfig"
+#include "Omoide.base.xcconfig"
 
 DEVELOPMENT_TEAM =
 

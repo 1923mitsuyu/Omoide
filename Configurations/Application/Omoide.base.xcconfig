@@ -1,9 +1,9 @@
-#include "Configurations/Project/Project.base.xcconfig"
+#include "../Project/Project.base.xcconfig"
 
 SDKROOT = iphoneos
 LD_RUNPATH_SEARCH_PATHS = @executable_path/Frameworks
 CODE_SIGN_STYLE = Manual
-DEVELOPMENT_TEAM = 2HQ4BA8ET8
+DEVELOPMENT_TEAM =
 
 GENERATE_INFOPLIST_FILE = NO
 PRODUCT_NAME = $(TARGET_NAME)
