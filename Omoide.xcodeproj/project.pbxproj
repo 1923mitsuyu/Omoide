@@ -19,9 +19,22 @@
 		21B99C07307BDF800029D8D6 /* Project.base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.base.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		219BB4CA307C81B100512D44 /* Exceptions for "Omoide" folder in "Omoide" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Supporting Files/Info.plist",
+			);
+			target = 2185B733307A29F900040C7A /* Omoide */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2185B736307A29F900040C7A /* Omoide */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				219BB4CA307C81B100512D44 /* Exceptions for "Omoide" folder in "Omoide" target */,
+			);
 			path = Omoide;
 			sourceTree = "<group>";
 		};

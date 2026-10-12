@@ -22,7 +22,8 @@ let package = Package(
   ],
   targets: [
     .target(
-      name: "AppFeature"
+      name: "AppFeature",
+      path: "Sources/Features/AppFeature"
     ),
   ]
 )
