@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UI
 
 public struct AppView: View {
   // MARK: - Initialize
@@ -15,7 +16,7 @@ public struct AppView: View {
     VStack {
       Image(systemName: "globe")
         .imageScale(.large)
-        .foregroundStyle(.tint)
+        .foregroundStyle(Color(.textPrimary))
       Text("Hello, world!")
     }
     .padding()

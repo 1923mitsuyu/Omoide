@@ -22,12 +22,21 @@ let package = Package(
   ],
   targets: [
     .target(
-      name: "AppFeature"
+      name: "AppFeature",
+      path: "Sources/Features/AppFeature"
+    ),
+    .target(
+      name: "UI"
     ),
   ]
 )
 
 for target in package.targets {
+  if let path = target.path, path.hasPrefix("Sources/Features/") {
+    target.dependencies += [
+      "UI",
+    ]
+  }
   // Pluginを設定
   if target.type == .regular || target.type == .test {
     target.plugins = target.plugins ?? []
